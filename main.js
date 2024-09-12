@@ -25,8 +25,7 @@ function changeBackgroundColor() {
 
 function changeImage() {
     // console.log(imageElement.src);
-    
-    if( imageElement.src == 'http://127.0.0.1:5501/logo.jpg'){
+    if( imageElement.src.includes('logo.jpg')){
         imageElement.src = 'sky.jpeg';
     }else{
         imageElement.src='logo.jpg'
